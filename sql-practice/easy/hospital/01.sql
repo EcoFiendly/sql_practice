@@ -1,0 +1,8 @@
+SELECT
+    first_name,
+    last_name,
+    gender
+FROM
+    patients
+WHERE
+    gender = 'M';
